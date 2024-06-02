@@ -1,0 +1,457 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(149, 233, 246, 0.45),
+    rgba(186, 230, 26, 0.38)
+  );
+  cursor: pointer;
+  z-index: 2;
+}
+.background1 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #fba8c1,
+    rgba(251, 168, 193, 0.54) 46%,
+    rgba(251, 168, 193, 0.97)
+  );
+  display: none;
+}
+.frame-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heart-icon {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 17.2px #fb83a7;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.card-top {
+  height: 221px;
+  flex: 1;
+  position: relative;
+}
+.card {
+  flex: 1;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 112px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 3;
+}
+.background2 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #fba8c1,
+    rgba(251, 168, 193, 0.54) 46%,
+    rgba(251, 168, 193, 0.97)
+  );
+  display: none;
+}
+.frame-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heart-icon1 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart1 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 17.2px #fb83a7;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frame-parent2 {
+  height: 221px;
+  flex: 1;
+  position: relative;
+}
+.card-parent,
+.card1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.card1 {
+  flex: 1;
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  min-width: 112px;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  z-index: 3;
+}
+.card-parent {
+  width: 382.1px;
+  gap: var(--gap-16xl-9);
+  min-width: 382.0999999999999px;
+  max-width: 100%;
+}
+.background3 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #a2e3f3,
+    rgba(162, 227, 243, 0.29) 46%,
+    #a2e3f3
+  );
+  display: none;
+}
+.frame-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heart-icon2 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart2 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 20.8px #39c9ec;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.triple-top {
+  height: 221px;
+  flex: 1;
+  position: relative;
+}
+.card2 {
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.background4 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #a2e3f3,
+    rgba(162, 227, 243, 0.29) 46%,
+    #a2e3f3
+  );
+  display: none;
+}
+.frame-icon3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heart-icon3 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart3 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 20.8px #39c9ec;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frame-parent3 {
+  height: 221px;
+  flex: 1;
+  position: relative;
+}
+.card3 {
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.background5 {
+  align-self: stretch;
+  width: 173.1px;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #a2e3f3,
+    rgba(162, 227, 243, 0.29) 46%,
+    #a2e3f3
+  );
+  display: none;
+}
+.frame-icon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.heart-icon4 {
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.heart4 {
+  position: absolute;
+  top: 79px;
+  left: 55px;
+  box-shadow: 0 4px 20.8px #39c9ec;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.frame-parent4 {
+  height: 221px;
+  flex: 1;
+  position: relative;
+}
+.card4 {
+  box-shadow: 3px 4px 9.4px rgba(235, 235, 235, 0.31), -7px -5px 17.8px #ebebeb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.activity-screen-inner,
+.frame-parent1,
+.second-card {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.second-card {
+  width: 591.1px;
+  display: grid;
+  justify-content: flex-start;
+  gap: var(--gap-16xl-9);
+  min-width: 591.0999999999999px;
+  grid-template-columns: repeat(3, minmax(130px, 1fr));
+}
+.activity-screen-inner,
+.frame-parent1 {
+  display: flex;
+}
+.frame-parent1 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.activity-screen-inner {
+  width: 1349.1px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-20xl);
+  box-sizing: border-box;
+}
+.image-5-icon5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1512px;
+  height: 1130px;
+  object-fit: cover;
+}
+.frame-child28 {
+  position: absolute;
+  top: 45px;
+  left: 43px;
+  width: 194px;
+  height: 194px;
+  cursor: pointer;
+  z-index: 3;
+}
+.card-icon,
+.frame-child29,
+.frame-child30 {
+  position: absolute;
+  top: 40.7px;
+  left: 306px;
+  width: 755.4px;
+  height: 41.1px;
+  object-fit: contain;
+  z-index: 3;
+}
+.card-icon,
+.frame-child30 {
+  top: -34px;
+  left: 941px;
+  width: 173.3px;
+  height: 175.9px;
+  z-index: 4;
+}
+.card-icon {
+  top: 252px;
+  left: 539px;
+  width: 182.5px;
+  height: 233px;
+  overflow: hidden;
+  z-index: 3;
+}
+.image-5-parent2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.activity-screen1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-245xl) var(--padding-23xl) var(--padding-164xl)
+    var(--padding-63xl);
+  box-sizing: border-box;
+  gap: var(--gap-9xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .card-parent,
+  .card-top,
+  .second-card {
+    flex: 1;
+  }
+  .frame-parent1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .second-card {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .card-parent {
+    min-width: 100%;
+  }
+  .second-card {
+    gap: var(--gap-lg);
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(130px, 225px));
+  }
+  .activity-screen1 {
+    padding-left: var(--padding-22xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .card-parent {
+    flex-wrap: wrap;
+    gap: var(--gap-lg);
+  }
+  .second-card {
+    grid-template-columns: minmax(130px, 1fr);
+  }
+}
